@@ -1,11 +1,13 @@
-const home = () => {
+import HeroBanner from '../../components/heroBannerPage/heroBanner.jsx';
+
+const Home = () => {
   return (
     <main>
       <div>
-        <h1>testing</h1>
+        <HeroBanner /> 
       </div>
     </main>
-  )
+  );
 };
 
-export default home;
+export default Home;

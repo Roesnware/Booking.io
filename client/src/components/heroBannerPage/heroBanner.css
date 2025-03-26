@@ -1,11 +1,86 @@
-.hero-section {
+.hero {
+    position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    width: 10rem;
-    height: 10rem;
-    background-color: navy;
+    height: 34rem;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.hero-section {
+    position: relative;
+    padding: 1.25rem 5rem;
+    margin: 1rem;
+    width: 100%;
+    color: white;
+    z-index: 1; /* ✅ Ensures content stays above the video */
+}
+
+.hero-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: .70rem;
+} 
+
+.hero-top-side {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.hero-cust {
+    display: flex;
+    padding-right: 1.5rem;
+    justify-content: space-between;
+}
+
+
+#avatar-icon {
+    padding-right: 1rem;
+}
+
+#cust-buttons {
+    padding-right: 1rem;
+}
+
+#business-btn {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    border-radius: .45rem;
+    height: 1.95rem;
+    padding: .65rem;
+    margin-top: -.5rem;
+}
+
+#icon {
+    padding-right: .5rem;
+}
+
+#logo {
+    background-image: url('../../assets/hero/logo-transparent.png');
+    background-size: cover;
+    height: 5rem;
+    width: 10rem;
+    margin-top: -4rem;
+    padding: 0;
+}
+
