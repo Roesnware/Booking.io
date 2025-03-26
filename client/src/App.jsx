@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import './pages/home.jsx'
 
 function App() {
 
   return (
     <>
-      <h1>Niggers</h1>
+      <home></home>
     </>
   )
 }
