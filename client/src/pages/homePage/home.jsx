@@ -1,11 +1,11 @@
-import React from 'react'
-
-function home() {
+const home = () => {
   return (
-    <>
-      <h1>nigger</h1>
-    </>
+    <main>
+      <div>
+        <h1>testing</h1>
+      </div>
+    </main>
   )
-}
+};
 
-export default home
+export default home;

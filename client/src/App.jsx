@@ -43,7 +43,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <div className='background'>
+      <div>
         <Outlet />
       </div>
     </ApolloProvider>
